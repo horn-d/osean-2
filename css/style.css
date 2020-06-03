@@ -62,11 +62,15 @@ button {
 
 
 .button {
-    background-color: #055431;
+    background-color: #03815C;
     text-decoration: none;
     color: white;
     border-radius: 10em;
     padding: 1em;
+}
+
+.button:hover {
+    background-color: #055431;
 }
 
 .buttons {
@@ -169,6 +173,10 @@ footer p {
 
 hr {
     width: 100%;
+}
+
+footer .kontakt {
+    margin-bottom: 2em;
 }
 
 
@@ -531,6 +539,7 @@ hr {
 }
 
 
+
 /*           FADE OUT ARROW FRONT PAGE          */
 
 
@@ -592,7 +601,7 @@ hr {
 
 
 
-/*                COPYRIGHT               */
+/*                COPYRIGHT BILLEDE              */
 
 
 .cpb {
@@ -606,12 +615,16 @@ hr {
     color: white;
 }
 
+
+
+
 /*               VIDEO ERHVERV          */
 
 .video {
     width: 100%;
     height: inherit;
 }
+
 
 
 
@@ -638,7 +651,7 @@ input[type=submit] {
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10em;
     cursor: pointer;
 }
 
@@ -1026,7 +1039,7 @@ main iframe {
         width: 40%;
         right: 30px;
         background-color: #055431;
-        padding-top: 40vh;
+        padding-top: 42vh;
     }
 
     .some img {
