@@ -895,8 +895,15 @@ main iframe {
     .title {
         display: flex;
         flex-direction: column;
+        padding: 0 0 3em !important;
     }
 
+    .container h1 {
+        font-size: 2em;
+    }
+
+
+    /*              PICTURE ON TOP IN SECTIONS      */
     .between .image {
         order: 1;
     }
@@ -912,6 +919,34 @@ main iframe {
         width: 100%;
         height: 400px;
     }
+
+
+    /*            OPSKRIFTER        */
+
+    .opskrift {
+        margin: 2em 0;
+        padding: 0;
+    }
+
+
+    /*            FRONTPAGE         */
+
+    .fp .top {
+        height: 40vh !important;
+    }
+
+    .fadeout {
+        opacity: 1;
+        padding-top: 15em;
+        background-color: #055431;
+        width: 100%;
+        margin-bottom: -4em;
+    }
+
+    .fadeout img {
+        margin-top: -4em;
+    }
+
 }
 
 
