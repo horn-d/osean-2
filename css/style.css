@@ -385,7 +385,7 @@ hr {
 
 .container .parallax {
     width: 100%;
-    padding: 25em 0;
+    padding: 20em 0;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -724,7 +724,6 @@ main iframe {
 
 .opskrift {
     background-color: white;
-    margin: 10em 0;
     cursor: pointer;
     transition: transform .2s;
 }
@@ -732,6 +731,9 @@ main iframe {
 .opskrift:hover {
     transform: scale(1.12);
 }
+
+.opskrift
+
 
 
 
@@ -1094,12 +1096,12 @@ main iframe {
         width: 20%;
     }
 
-    .fp header {
+    .fp header{
         opacity: .8;
     }
 
-    .header:hover main .medie img {
-        width: 100%;
+    header a {
+        text-shadow: .01em .01em .5px ;
     }
 
 
@@ -1127,7 +1129,7 @@ main iframe {
         width: 25%;
         display: inline-block;
         margin: 6em 2em 0;
-        padding: 0;
+        padding: 0 0 0.5em;
     }
 
 
